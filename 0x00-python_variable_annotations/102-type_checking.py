@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-'''Task 12module.
+'''Task 12'smodule.
 '''
 from typing import List, Tuple
 
+
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    '''Creates multiplecopies of items in a tuple.
+    '''Creates multiple copies of items in a tuple.
     '''
     zoomed_in: List = [
         item for item in lst
@@ -18,6 +19,3 @@ array = (12, 72, 91)
 zoom_2x = zoom_array(array)
 
 zoom_3x = zoom_array(array, 3)
-
-print(zoom_2x)
-print( zoom_3x)
